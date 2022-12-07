@@ -1,0 +1,19 @@
+@media (max-width: 1200px){
+    .search input{
+        width: 16rem;
+    }
+    .katalog{
+        display: none;
+    }
+}
+@media (max-width: 767px){
+    .search{
+        display: none;
+    }
+    .sidebar{
+        display: none;
+    }
+    .video_box{
+        grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    }
+}
